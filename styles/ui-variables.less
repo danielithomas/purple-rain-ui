@@ -17,9 +17,9 @@
 @text-color-highlight: hsl(0,0%,94%);
 @text-color-selected:  hsl(0,0%,100%);
 
-@text-color-info:    hsl(219,  79%, 66%);
+@text-color-info:    hsl(240,  78%, 68%); // hsl(219,  79%, 66%);
 @text-color-success: hsl(140,  44%, 62%);
-@text-color-warning: hsl( 36,  60%, 72%);
+@text-color-warning: hsl( 30,  85%, 65%); //hsl( 36,  60%, 72%);
 @text-color-error:   hsl(  9, 100%, 64%);
 
 // Background colors
@@ -33,8 +33,9 @@
 @app-background-color:       darken(@base-background-color, 5%);
 
 // Base colors
-@base-background-color: hsla(240, 19%, 16%, 0.95);
-@base-border-color:     darken(@base-background-color, 8%);
+@base-theme-color: hsla(240, 19%, 16%, 0.95);
+@base-background-color: darken(@base-theme-color, 2%);
+@base-border-color:     darken(@base-theme-color, 8%);
 
 // Component colors
 @pane-item-background-color: @base-background-color;
@@ -72,7 +73,7 @@
 // Site colors
 @ui-site-color-1: hsl(208, 100%, 50%); // blue
 @ui-site-color-2: hsl(160,  70%, 42%); // green
-@ui-site-color-3: hsl(32,   60%, 50%); // orange
+@ui-site-color-3: hsl(30,   85%, 85%); // hsl(32,   60%, 50%); // orange
 @ui-site-color-4: #D831B0;             // pink
 @ui-site-color-5: #EBDD5B;             // yellow
 

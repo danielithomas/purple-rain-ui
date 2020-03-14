@@ -7,7 +7,7 @@
     "ui",
     "theme"
   ],
-  "repository": "https://github.com/danielithomas/ui-theme-template",
+  "repository": "hhttps://github.com/danielithomas/purple-rain-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
